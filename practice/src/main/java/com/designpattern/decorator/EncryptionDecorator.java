@@ -34,4 +34,12 @@ public class EncryptionDecorator extends DataSourceDecorator {
         }
         return new String(result);
     }
+
+    public String decition(int status){
+
+        switch(status) {}
+
+        return null;
+    }
+    
 }

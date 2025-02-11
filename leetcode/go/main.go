@@ -6,7 +6,5 @@ import (
 )
 
 func main() {
-	var ary = [][]int{{1, 2, 3}, {3, 2, 1}}
-
-	fmt.Println(leetcodetest.MaximumWealth(ary))
+	fmt.Println(leetcodetest.NumberOfSteps(14))
 }

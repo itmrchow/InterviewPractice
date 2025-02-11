@@ -26,6 +26,7 @@ public class ConcreteSub implements Subject {
 
     public void updateStatus(String status){
         this.status = status;
+        this.notifyObservers();
     }
     
 }
